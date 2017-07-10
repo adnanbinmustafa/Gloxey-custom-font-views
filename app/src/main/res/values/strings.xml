@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Custom Font Sample</string>
+
+
+    <!--Font Names-->
+    <string name="souther_aire">sourthern_aire.ttf</string>
+    <string name="remachine_script">remachine_script.ttf</string>
+    <string name="beautiful_creatures">beautiful_creatures.ttf</string>
+    <string name="great_vibes">great_vibes.ttf</string>
+    <string name="orange_juice">orange_juice.ttf</string>
+
+    
+</resources>

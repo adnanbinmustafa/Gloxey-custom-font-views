@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/adnan/Android_Projects/Git Projects/Gloxey-custom-font-views/custom-font-views/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="df12744645c8f9f6c774861ffd10c1067d6ddee5">
+        <dex dex="/home/adnan/Android_Projects/Git Projects/Gloxey-custom-font-views/app/build/intermediates/pre-dexed/debug/classes_5b65220cf7c1ae8450417786a2c979cc688458a2.jar" />
+    </item>
+
+</items>
