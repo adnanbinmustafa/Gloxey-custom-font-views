@@ -2,11 +2,11 @@ package io.gloxey.cfv;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.widget.Button;
 
 import io.gloxey.cfv.gutils.FontUtils;
 
 public class CFButton extends android.support.v7.widget.AppCompatButton {
-
 
     public CFButton(Context context) {
         super(context);

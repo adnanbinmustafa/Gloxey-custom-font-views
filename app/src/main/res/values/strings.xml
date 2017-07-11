@@ -3,11 +3,10 @@
 
 
     <!--Font Names-->
-    <string name="souther_aire">sourthern_aire.ttf</string>
-    <string name="remachine_script">remachine_script.ttf</string>
-    <string name="beautiful_creatures">beautiful_creatures.ttf</string>
-    <string name="great_vibes">great_vibes.ttf</string>
-    <string name="orange_juice">orange_juice.ttf</string>
+    <string name="aadhunik">aadhunik.ttf</string>
+    <string name="kung_fool">kungfool.ttf</string>
+    <string name="skrova">skrova.otf</string>
+    <string name="painting_in_the_sun_light">painting_in_the_sun_light.ttf</string>
 
-    
+
 </resources>

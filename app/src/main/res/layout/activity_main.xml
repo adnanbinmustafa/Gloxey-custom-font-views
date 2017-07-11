@@ -1,48 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
 
-    <io.gloxey.cfv.CFTextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello world" />
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="TextView" />
 
-    <io.gloxey.cfv.CFButton
+        <io.gloxey.cfv.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Aadhunik"
+            android:textColor="#ff00"
+            android:textSize="40sp"
+            app:font_name="@string/aadhunik" />
+    </LinearLayout>
 
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello world"
-        app:font_name="@string/souther_aire" />
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <io.gloxey.cfv.CFEditText
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <io.gloxey.cfv.CFButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kung Fool"
+            android:textColor="#154748"
+            app:font_name="@string/kung_fool" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello world"
-        app:font_name="@string/great_vibes" />
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EditText" />
 
-    <io.gloxey.cfv.CFTextView
+        <io.gloxey.cfv.CFEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hello world"
+            android:textSize="30sp"
+            app:font_name="@string/skrova" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello world"
-        app:font_name="@string/remachine_script" />
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CheckBox" />
 
-    <io.gloxey.cfv.CFTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello world"
-        app:font_name="@string/orange_juice" />
+        <io.gloxey.cfv.CFCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Painting In The Sun Light"
+            android:textSize="30sp"
+            app:font_name="@string/painting_in_the_sun_light" />
 
-    <io.gloxey.cfv.CFTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello world"
-        app:font_name="@string/beautiful_creatures" />
+    </LinearLayout>
+
 </LinearLayout>

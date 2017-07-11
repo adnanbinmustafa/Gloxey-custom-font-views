@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CustomFontView">
-        <attr name="font_name" format="string" />
+
+    <attr name="font_name" format="string" />
+
+    <!--TextView-->
+    <declare-styleable name="CFTextView">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <!--Button-->
+    <declare-styleable name="CFButton">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <!--CheckBox-->
+    <declare-styleable name="CFCheckBox">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <!--CheckedTextView-->
+    <declare-styleable name="CFCheckedTextView">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <!--EditText-->
+    <declare-styleable name="CFEditText">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <!--RadioButton-->
+    <declare-styleable name="CFRadioButton">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <!--Switch-->
+    <declare-styleable name="CFSwitch">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <!--SwitchCompat-->
+    <declare-styleable name="CFSwitchCompat">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <!--ToggleButton-->
+    <declare-styleable name="CFToggleButton">
+        <attr name="font_name" />
     </declare-styleable>
 </resources>

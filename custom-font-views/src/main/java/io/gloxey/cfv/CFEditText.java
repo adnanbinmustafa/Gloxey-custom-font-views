@@ -3,10 +3,11 @@ package io.gloxey.cfv;
 import android.content.Context;
 import android.support.v7.widget.SwitchCompat;
 import android.util.AttributeSet;
+import android.widget.EditText;
 
 import io.gloxey.cfv.gutils.FontUtils;
 
-public class CFEditText extends SwitchCompat {
+public class CFEditText extends android.support.v7.widget.AppCompatEditText {
 
 
     public CFEditText(Context context) {
